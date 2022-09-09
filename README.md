@@ -8,6 +8,7 @@ Instructions:
   2. Install https://dvr-scan.readthedocs.io/en/latest/download/
   3. Move the program into the folder with your video files.
   4. Start the program.
+  5. Follow the instructions on screen.
 
 
 For more info, see: http://www.do-g.de/fileadmin/Vogelwarte_59_2021-4_DO-G.pdf
