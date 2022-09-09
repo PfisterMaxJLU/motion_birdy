@@ -206,7 +206,7 @@ def dependency_installer():
         input("\nThis should resolve the issue on the next start. If not, contact Max.Pfister@bio.uni-giessen.de.")
         exit()
 
-print("motion_birdy launched) In case of questions or problems write Max.Pfister@bio.uni-giessen.de")
+print("motion_birdy launched. In case of questions or problems write Max.Pfister@bio.uni-giessen.de")
 dependency_installer()
 
 #main processing part with the help of dvr-scan
@@ -238,6 +238,10 @@ types = ('*.avi', '*.mp4')
 files_grabbed = []
 for files in types:
     files_grabbed.extend(glob.glob(files))
+
+if len(files_grabbed) == 0:
+    print("Cant locate any avi or mp4 files. Please move them into the folder the program resides in.")
+    input()
 
 vid_length, start_hour, start_min, threshold = user_input_collector()
 
