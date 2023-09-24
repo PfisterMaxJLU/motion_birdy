@@ -1,6 +1,6 @@
 # motion_birdy
 A program for the systematic review and processing of motion in recorded video utilizing https://github.com/Breakthrough/DVR-Scan.
-If there are questions write Max.Pfister@bio.uni-giessen.de
+If there are questions write PfisterMaxJLU <Max.Pfister@bio.uni-giessen.de>
 
 Supports video formats "avi" and "mp4". File name should not have "space" in them.
 
